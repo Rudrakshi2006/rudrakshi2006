@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
+  <defs>
+    <!-- Background linear gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14" />
+      <stop offset="40%" stop-color="#150d2a" />
+      <stop offset="75%" stop-color="#1e103d" />
+      <stop offset="100%" stop-color="#090514" />
+    </linearGradient>
+
+    <!-- Glowing accents -->
+    <radialGradient id="glow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text shimmer gradient -->
+    <linearGradient id="textShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#e9d5ff" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#67e8f9" />
+    </linearGradient>
+
+    <!-- Border highlight gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Wave gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+    </linearGradient>
+
+    <style>
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        letter-spacing: -0.5px;
+        fill: url(#textShimmer);
+      }
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.3px;
+        fill: #cbd5e1;
+      }
+      .badge-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #a78bfa;
+      }
+      .badge-box {
+        fill: #1e1136;
+        stroke: #6d28d9;
+        stroke-width: 1;
+        rx: 12;
+      }
+      .star {
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+      @keyframes pulse {
+        0% { opacity: 0.3; transform: scale(0.8); }
+        100% { opacity: 1; transform: scale(1.2); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="220" rx="16" fill="url(#bgGradient)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="180" cy="60" r="140" fill="url(#glow1)" />
+  <circle cx="800" cy="160" r="160" fill="url(#glow2)" />
+  <circle cx="500" cy="110" r="180" fill="url(#glow3)" />
+
+  <!-- Geometric / Wave Accent in background -->
+  <path d="M 0,160 Q 240,110 480,150 T 960,140 L 960,220 L 0,220 Z" fill="url(#waveGrad)" />
+  <path d="M 0,180 Q 280,140 560,175 T 960,170 L 960,220 L 0,220 Z" fill="#0c071a" opacity="0.7" />
+
+  <!-- Subtle grid dots -->
+  <g opacity="0.15" fill="#c084fc">
+    <circle cx="60" cy="40" r="1.5"/>
+    <circle cx="100" cy="40" r="1.5"/>
+    <circle cx="140" cy="40" r="1.5"/>
+    <circle cx="820" cy="40" r="1.5"/>
+    <circle cx="860" cy="40" r="1.5"/>
+    <circle cx="900" cy="40" r="1.5"/>
+    <circle cx="60" cy="70" r="1.5"/>
+    <circle cx="100" cy="70" r="1.5"/>
+    <circle cx="860" cy="70" r="1.5"/>
+    <circle cx="900" cy="70" r="1.5"/>
+  </g>
+
+  <!-- Twinkling stars -->
+  <g fill="#f8fafc">
+    <circle cx="120" cy="55" r="2" opacity="0.8" class="star"/>
+    <circle cx="340" cy="35" r="1.5" opacity="0.6"/>
+    <circle cx="680" cy="45" r="2" opacity="0.9" class="star"/>
+    <circle cx="840" cy="60" r="1.5" opacity="0.7"/>
+    <circle cx="780" cy="100" r="2" opacity="0.8" class="star"/>
+  </g>
+
+  <!-- Sparkle Graphic Left -->
+  <path d="M 80,105 Q 80,115 70,115 Q 80,115 80,125 Q 80,115 90,115 Q 80,115 80,105 Z" fill="#c084fc" opacity="0.9" />
+  <!-- Sparkle Graphic Right -->
+  <path d="M 880,95 Q 880,105 870,105 Q 880,105 880,115 Q 880,105 890,105 Q 880,105 880,95 Z" fill="#38bdf8" opacity="0.9" />
+
+  <!-- Main Title -->
+  <text x="480" y="82" text-anchor="middle" class="title">✨ Rudrakshi Bhandekar ✨</text>
+
+  <!-- Subtitle -->
+  <text x="480" y="118" text-anchor="middle" class="subtitle">
+    Computer Science Undergrad @ SIT Nagpur &nbsp;•&nbsp; B.S. Data Science @ IIT Madras
+  </text>
+
+  <!-- Badges / Tags row -->
+  <g transform="translate(185, 142)">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="160" height="26" class="badge-box" />
+    <text x="80" y="17" text-anchor="middle" class="badge-text">IEEE Researcher</text>
+
+    <!-- Badge 2 -->
+    <rect x="175" y="0" width="190" height="26" class="badge-box" />
+    <text x="270" y="17" text-anchor="middle" class="badge-text">Published Patent Applicant</text>
+
+    <!-- Badge 3 -->
+    <rect x="380" y="0" width="210" height="26" class="badge-box" />
+    <text x="485" y="17" text-anchor="middle" class="badge-text">Multi-Agent AI &amp; ML Eng</text>
+  </g>
+
+  <!-- Sleek Glowing Border -->
+  <rect x="1" y="1" width="958" height="218" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+</svg>

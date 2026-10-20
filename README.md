@@ -1,18 +1,34 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,32,45,55&height=220&section=header&text=Rudrakshi%20Bhandekar&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Computer%20Science%20Engineer%20✦%20AI%20%26%20Data%20Science%20Researcher&descAlignY=60&descAlign=50" width="100%" alt="Rudrakshi's Banner" />
+  <!-- Aesthetic Self-Contained SVG Header Banner (Zero external downtime) -->
+  <img src="./assets/header.svg" width="100%" alt="Rudrakshi Bhandekar - Header Banner" />
+
+  <br/><br/>
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Rudrakshi2006">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&multiline=false&width=680&height=45&lines=B.Tech+CSE+%40+SIT+Nagpur+%E2%80%A2+B.S.+Data+Science+%40+IIT+Madras;First-Author+IEEE+Researcher+%F0%9F%93%9A+%7C+2x+Patent+Applicant+%F0%9F%92%A1;Multi-Agent+AI+%E2%80%A2+RAG+%E2%80%A2+Predictive+ML+Systems+%F0%9F%A4%96;Turning+Complex+Data+into+Actionable+Insights+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&multiline=false&width=720&height=45&lines=B.Tech+CSE+%40+SIT+Nagpur+%E2%80%A2+B.S.+Data+Science+%40+IIT+Madras;First-Author+IEEE+Researcher+%F0%9F%93%9A+%7C+Patent+Applicant+%F0%9F%92%A1;Multi-Agent+AI+%E2%80%A2+RAG+%E2%80%A2+Predictive+ML+Systems+%F0%9F%A4%96;Turning+Complex+Data+into+Actionable+Insights+%E2%9C%A8" alt="Typing SVG" />
   </a>
 
+  <br/><br/>
+
+  <!-- Action Badges (Portfolio, LinkedIn, Email, GitHub) -->
   <p align="center">
-    <a href="https://www.linkedin.com/in/rudrakshi-bhandekar-b9257731a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:rudrakshibhandekar17@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://github.com/Rudrakshi2006"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Rudrakshi2006&icon=5&color=8" alt="Visitors" /></a>
+    <a href="https://rudrakshi-portfolio-two.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_Portfolio-rudrakshi--portfolio-8B5CF6?style=for-the-badge&logo=react&logoColor=white" alt="Live Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/rudrakshi-bhandekar-b9257731a/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:rudrakshibhandekar17@gmail.com">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Rudrakshi2006">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
   </p>
 
 </div>
@@ -32,8 +48,8 @@ status: Open to innovative collaborations & high-impact research
 ```
 
 - 🎓 Pursuing a dual academic track: **B.Tech in CSE** at Symbiosis Institute of Technology & **B.S. in Data Science** at IIT Madras.
-- 🔬 **Published Researcher & Innovator**: First-author IEEE publication + 2 published patent applications in AI and Predictive Modeling.
-- 🛠️ Currently architecting **multi-agent research automation engines** and **offline privacy-first RAG solutions**.
+- 🔬 **Published Researcher & Innovator**: First-author IEEE publication + published patent applications in AI, Healthcare ML, and Predictive Modeling.
+- 🛠️ Currently architecting **multi-agent research discovery engines** and **privacy-first RAG solutions**.
 - 💡 Passionate about taking models beyond notebooks into production systems that solve genuine problems.
 
 ---
@@ -42,7 +58,7 @@ status: Open to innovative collaborations & high-impact research
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="48%" valign="top">
       <h4>📄 First-Author IEEE Publication</h4>
       <p><b>Agriculture Price Prediction via Stacking Ensemble Learning</b></p>
       <ul>
@@ -51,12 +67,13 @@ status: Open to innovative collaborations & high-impact research
         <li><b>DOI:</b> <a href="https://doi.org/10.1109/TEMSMET65536.2025.11467327"><code>10.1109/TEMSMET65536.2025.11467327</code></a></li>
       </ul>
     </td>
-    <td width="50%" valign="top">
+    <td width="52%" valign="top">
       <h4>💡 Published Patent Applications</h4>
-      <p><b>Indian Patent Office (Published IP)</b></p>
+      <p><b>Indian Patent Office (Official Journal)</b></p>
       <ul>
-        <li><b>App: 202621048319 A</b> — Ensemble-based Intelligent Agricultural Market Trend Forecasting Framework.</li>
-        <li><b>App: 202621011705 A</b> — CycleCura: ML-driven Menstrual Health & PCOS Risk Pattern Recognition.</li>
+        <li><b>App: 202621080930 A</b> (Pub: Aug 21, 2026) — <i>Digital Twin Based System and Method for Personalized Lung Cancer Treatment in Metaverse Environments</i>.</li>
+        <li><b>App: 202621048319 A</b> — <i>Ensemble-based Intelligent Agricultural Market Trend Forecasting Framework</i>.</li>
+        <li><b>App: 202621011705 A</b> — <i>CycleCura: ML-driven Menstrual Health &amp; PCOS Risk Pattern Recognition</i>.</li>
       </ul>
     </td>
   </tr>
@@ -128,13 +145,12 @@ status: Open to innovative collaborations & high-impact research
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌸 <a href="https://github.com/Rudrakshi2006">CycleCura</a></h3>
-      <p><i>ML-Driven Menstrual Health & PCOS Risk Awareness</i></p>
-      <p>Predictive health model utilizing cycle variance patterns and biometric indicators for awareness and preventive guidance. <b>Backed by published Indian patent application.</b></p>
+      <h3>🫁 <a href="https://github.com/Rudrakshi2006/LungTwin_V2">LungTwin: Digital Twin for Cancer Treatment</a></h3>
+      <p><i>Personalized Simulation in Metaverse Environments</i></p>
+      <p>DICOM CT processing, 3D mesh reconstruction via Marching Cubes, radiomic feature extraction & Random Forest survival modeling. <b>Published Indian Patent (App: 202621080930 A).</b></p>
       <p>
-        <img src="https://img.shields.io/badge/Patent_Published-F59E0B?style=flat-square&logo=sparkles&logoColor=white" />
-        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-        <img src="https://img.shields.io/badge/Healthcare_ML-9333EA?style=flat-square" />
+        <img src="https://img.shields.io/badge/Patent_Published-202621080930_A-F59E0B?style=flat-square&logo=sparkles&logoColor=white" />
+        <img src="https://img.shields.io/badge/Healthcare_AI-Digital_Twin-blueviolet?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
@@ -169,12 +185,11 @@ status: Open to innovative collaborations & high-impact research
 
 <div align="center">
 
-  <!-- Interactive/aesthetic quote -->
   <p align="center">
     <i>"The best way to predict the future is to build the algorithms that shape it."</i> 🚀
   </p>
 
-  <!-- Animated Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=55,45,32,20,12&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <!-- Self-contained SVG Footer Banner -->
+  <img src="./assets/footer.svg" width="100%" alt="Footer Banner" />
 
 </div>
