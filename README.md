@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Aesthetic Self-Contained SVG Header Banner (Zero external downtime) -->
-  <img src="./assets/header.svg" width="100%" alt="Rudrakshi Bhandekar - Header Banner" />
+  <!-- Aesthetic Header Banner -->
+  <img src="https://raw.githubusercontent.com/Rudrakshi2006/rudrakshi2006/main/assets/header.svg" width="100%" alt="Rudrakshi Bhandekar - Header Banner" />
 
   <br/><br/>
 
@@ -177,8 +177,6 @@ status: Open to innovative collaborations & high-impact research
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rudrakshi2006&theme=tokyonight&hide_border=true&background=0D1117&ring=C084FC&fire=F43F5E&currStreakLabel=C084FC&sideLabels=94A3B8&sideNums=C084FC" height="165" alt="Streak Stats" />
   <br/><br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rudrakshi2006&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C084FC&text_color=94A3B8" height="165" alt="Top Languages" />
-  <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rudrakshi2006&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=C084FC&line=818CF8&point=F43F5E" width="95%" alt="Activity Graph" />
 </div>
 
 ---
@@ -189,7 +187,7 @@ status: Open to innovative collaborations & high-impact research
     <i>"The best way to predict the future is to build the algorithms that shape it."</i> 🚀
   </p>
 
-  <!-- Self-contained SVG Footer Banner -->
-  <img src="./assets/footer.svg" width="100%" alt="Footer Banner" />
+  <!-- Footer Banner -->
+  <img src="https://raw.githubusercontent.com/Rudrakshi2006/rudrakshi2006/main/assets/footer.svg" width="100%" alt="Footer Banner" />
 
 </div>
